@@ -1,0 +1,96 @@
+header{
+    display: flex;
+    font-style: Inter;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+}
+
+body{
+    background-color: #FAFAF8;
+    font-family: Inter;
+}
+
+header>img{
+    width: 50px;;
+}
+
+header >h1{
+    font-size: 2rem;
+    font-weight: 400;
+}
+main{
+    padding: 30px 30px 10px;
+}
+.add-ingridents-form{
+    display: flex;
+    justify-content: center;
+    height: 38px;
+    gap:12px;
+}
+
+.add-ingridents-form>input{
+    border-radius: 6px;
+    border: 1px solid #D1D5DB;
+    padding: 9px 13px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    flex-grow: 1;
+    min-width: 150px;
+    max-width: 400px;
+}
+
+.add-ingridents-form>button{
+    font-family: Inter;
+    background-color: black;
+    border-radius: 6px;
+    border:none;
+    color:#FAFAF8 ;
+    width: 150px;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+.add-ingridents-form>button::before{
+    content: '+';
+    margin-right: 5px;
+}
+
+.getRecipeSection{
+    display: flex;
+    margin: 50px;
+    box-shadow: 0px 1px 2px 0px rgba(241, 92, 92, 0.3);
+    background-color: rgba(255, 0, 0, 0.03);
+    justify-content: center;
+    
+}
+
+.getRecipeSection>button{
+    margin: 30px;
+    background-color: orangered;
+    border-radius: 6px;
+    border:none;
+    color:#FAFAF8 ;
+    width: 100px;
+    height: 30px;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.ingridents{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    border-bottom: 1px solid #ccc;
+}
+.deleteIngrident{
+    align-items: center;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+    color: white;
+}
